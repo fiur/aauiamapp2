@@ -1,0 +1,1122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c34adc4f-0a27-4ac9-824b-95f6c48a6aba" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/iam1.iml" afterPath="$PROJECT_DIR$/.idea/aauiamapp1.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/res1.js" afterPath="$PROJECT_DIR$/routes/res1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/pages/index.ejs" afterPath="$PROJECT_DIR$/views/pages/index.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/partials/navigation.ejs" afterPath="$PROJECT_DIR$/views/partials/navigation.ejs" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="iam1" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="res1.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/res1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/register.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="res2.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/res2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>&lt;%=</find>
+      <find>ultra-light</find>
+      <find>skins</find>
+      <find>demo</find>
+      <find>smartadmin</find>
+      <find>main</find>
+      <find>login</find>
+      <find>index.html</find>
+      <find>btn-group dropup</find>
+      <find>regi</find>
+      <find>login-form</find>
+      <find>#smart-form-register</find>
+      <find>smart-form-register</find>
+      <find>col-xs-12 col-sm-12 col-md-7 col-lg-7 hidden-xs hidden-sm</find>
+      <find>ajaxSubmit</find>
+      <find>render</find>
+      <find>passport</find>
+      <find>express</find>
+      <find>stra</find>
+      <find>title</find>
+      <find>require('passport')</find>
+      <find>press</find>
+      <find>app</find>
+      <find>logout</find>
+      <find>routes</find>
+      <find>fullsc</find>
+      <find>pass</find>
+      <find>models</find>
+      <find>module</find>
+      <find>serializeUser</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/public/login.html" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/public/css/your_style.css" />
+        <option value="$PROJECT_DIR$/views/index.ejs" />
+        <option value="$PROJECT_DIR$/views/header.ejs" />
+        <option value="$PROJECT_DIR$/public/header.html" />
+        <option value="$PROJECT_DIR$/public/footer.html" />
+        <option value="$PROJECT_DIR$/views/login.ejs" />
+        <option value="$PROJECT_DIR$/views/pages/error.ejs" />
+        <option value="$PROJECT_DIR$/public/css/style.css" />
+        <option value="$PROJECT_DIR$/views/partials/footer.ejs" />
+        <option value="$PROJECT_DIR$/public/js/app.config.js" />
+        <option value="$PROJECT_DIR$/views/partials/script.ejs" />
+        <option value="$PROJECT_DIR$/views/pages/register.ejs" />
+        <option value="$PROJECT_DIR$/handler/loginhandler.js" />
+        <option value="$PROJECT_DIR$/modules/loginhandler.js" />
+        <option value="$PROJECT_DIR$/authendicate/init.js" />
+        <option value="$PROJECT_DIR$/authendicate/middleware.js" />
+        <option value="$PROJECT_DIR$/authendication/index.js" />
+        <option value="$PROJECT_DIR$/authendication/init.js" />
+        <option value="$PROJECT_DIR$/authendication/middleware.js" />
+        <option value="$PROJECT_DIR$/db/index.js" />
+        <option value="$PROJECT_DIR$/views/partials/head.ejs" />
+        <option value="$PROJECT_DIR$/db/users.js" />
+        <option value="$PROJECT_DIR$/views/partials/header.ejs" />
+        <option value="$PROJECT_DIR$/routes/logout.js" />
+        <option value="$PROJECT_DIR$/views/pages/prohibited.ejs" />
+        <option value="$PROJECT_DIR$/routes/login.js" />
+        <option value="$PROJECT_DIR$/routes/prohibited.js" />
+        <option value="$PROJECT_DIR$/routes/register.js" />
+        <option value="$PROJECT_DIR$/routes/profile.js" />
+        <option value="$PROJECT_DIR$/routes/users.js" />
+        <option value="$PROJECT_DIR$/views/pages/users.ejs" />
+        <option value="$PROJECT_DIR$/views/pages/profile.ejs" />
+        <option value="$PROJECT_DIR$/views/pages/login.ejs" />
+        <option value="$PROJECT_DIR$/models/account.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/bin/www" />
+        <option value="$PROJECT_DIR$/views/pages/res1.ejs" />
+        <option value="$PROJECT_DIR$/views/pages/res2.ejs" />
+        <option value="$PROJECT_DIR$/views/pages/res3.ejs" />
+        <option value="$PROJECT_DIR$/routes/res2.js" />
+        <option value="$PROJECT_DIR$/routes/res3.js" />
+        <option value="$PROJECT_DIR$/views/pages/index.ejs" />
+        <option value="$PROJECT_DIR$/views/partials/navigation.ejs" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/routes/res1.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="10" />
+    <option name="y" value="22" />
+    <option name="width" value="1920" />
+    <option name="height" value="1004" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aauiamapp1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aauiamapp1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="7.7.2" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistoryKey" value="wat&#9;ACTION&#9;Debugger.AddToWatch&#10;watch&#9;ACTION&#9;XDebugger.SwitchWatchesInVariables&#10;comment&#9;ACTION&#9;CommentByBlockComment&#10;server&#9;null&#9;null&#10;ajaxSubmit&#9;null&#9;null&#10;form&#9;FILE&#9;file:///Users/stefan/WebstormProjects/iam1/public/js/plugin/ckeditor/plugins/forms/dialogs/form.js&#10;login&#9;null&#9;null" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/mocha" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/routes" />
+      <recent name="$PROJECT_DIR$/views/pages" />
+      <recent name="$PROJECT_DIR$/bin" />
+      <recent name="$PROJECT_DIR$/views/partials" />
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/views/pages" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/views" />
+      <recent name="$PROJECT_DIR$/views/partials" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.bin/www">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.bin/www" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c34adc4f-0a27-4ac9-824b-95f6c48a6aba" name="Default" comment="" />
+      <created>1490561556839</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1490561556839</updated>
+      <workItem from="1490561562241" duration="514000" />
+      <workItem from="1490610100891" duration="6000" />
+      <workItem from="1490610144529" duration="40421000" />
+      <workItem from="1490705408793" duration="4537000" />
+      <workItem from="1490712522800" duration="944000" />
+      <workItem from="1491408942175" duration="4807000" />
+      <workItem from="1491645525076" duration="196000" />
+      <workItem from="1491649508894" duration="13093000" />
+      <workItem from="1491857262440" duration="401000" />
+      <workItem from="1493039573417" duration="16000" />
+      <workItem from="1493041824326" duration="207000" />
+      <workItem from="1494885194566" duration="137000" />
+      <workItem from="1494886217130" duration="9673000" />
+      <workItem from="1495091565742" duration="8335000" />
+      <workItem from="1495128439707" duration="13000" />
+      <workItem from="1495128462488" duration="295000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="83595000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="10" y="22" width="1920" height="1004" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13322802" sideWeight="0.6589912" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22039473" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13322802" sideWeight="0.34100878" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24637681" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5191257" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32785088" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24932249" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32791328" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15503876" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32791328" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52168024" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/index.js</url>
+          <line>24</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint log-message="true" type="javascript-exception">
+          <properties />
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="29" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="NodeJSConfigurationType">
+        <watch expression="profile" language="JavaScript" />
+        <watch expression="noUser" language="JavaScript" />
+        <watch expression="req.user" language="JavaScript" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/views/footer.ejs" />
+    <entry file="file://$PROJECT_DIR$/public/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/pages/index_old.ejs" />
+    <entry file="file://$PROJECT_DIR$/views/partials/footer.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/data/dataList.json" />
+    <entry file="file://$PROJECT_DIR$/public/js/app.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="37" column="24" lean-forward="false" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/plugin/ckeditor/plugins/forms/dialogs/form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-637">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/partials/script.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/avatars/profile.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/plugin/jquery-form/jquery-form.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="10" column="744" lean-forward="false" selection-start-line="10" selection-start-column="734" selection-end-line="10" selection-end-column="744" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/loginhandler.js" />
+    <entry file="file://$PROJECT_DIR$/authendication/index.js" />
+    <entry file="file://$PROJECT_DIR$/authendication/middleware.js" />
+    <entry file="file://$PROJECT_DIR$/authendication/init.js" />
+    <entry file="file://$PROJECT_DIR$/db/index.js" />
+    <entry file="file://$PROJECT_DIR$/views/partials/head.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="52" lean-forward="false" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/error.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/users.js" />
+    <entry file="file://$PROJECT_DIR$/db/index.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="457" column="0" lean-forward="false" selection-start-line="457" selection-start-column="0" selection-end-line="457" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/logout.js" />
+    <entry file="file://$PROJECT_DIR$/routes/prohibited.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="40" lean-forward="false" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/pages/register.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="178" column="39" lean-forward="true" selection-start-line="178" selection-start-column="39" selection-end-line="178" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/pages/users.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/partials/header.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="50" column="29" lean-forward="false" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/account.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="23" lean-forward="false" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="40" lean-forward="false" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/passport-saml/lib/passport-saml/saml.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="800" column="4" lean-forward="false" selection-start-line="800" selection-start-column="4" selection-end-line="800" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/passport/lib/authenticator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-558">
+          <caret line="276" column="18" lean-forward="false" selection-start-line="276" selection-start-column="18" selection-end-line="276" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/pages/prohibited.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-47">
+          <caret line="29" column="90" lean-forward="false" selection-start-line="29" selection-start-column="90" selection-end-line="29" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/pages/res2.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="15" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/pages/res3.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/pages/profile.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/res3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/pages/res1.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/profile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/pages/login.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="63" column="48" lean-forward="false" selection-start-line="63" selection-start-column="48" selection-end-line="63" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/partials/navigation.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/pages/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="118" column="1" lean-forward="false" selection-start-line="118" selection-start-column="1" selection-end-line="118" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/register.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/res2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram//Users/stefan/WebstormProjects/iam1">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$</OriginalElement>
+          <nodes>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/ES6Promise.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/drivers/browser/ReadPreference.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/ReadPreference.js#mongodb#37;</node>
+            <node x="" y="">$PROJECT_DIR$/models/account.js#mongoose#4;/Users/stefan/WebstormProjects/iam1/models/account.js#passportLocalMongoose#70;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/aggregate/aggregate.js#async#51;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/examples/aggregate/aggregate.js#mongoose#121;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/examples/aggregate/aggregate.js#person.js#155;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/aggregate.js#PromiseProvider#96;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/aggregate.js#Query#149;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/aggregate.js#util#36;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/aggregate.js#utils#64;</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/ckeditor/samples/ajax.html</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/ckeditor/samples/api.html</node>
+            <node x="" y="">$PROJECT_DIR$/app.js#SamlStrategy#458;/Users/stefan/WebstormProjects/iam1/app.js#bodyParser#402;/Users/stefan/WebstormProjects/iam1/app.js#cookieParser#316;/Users/stefan/WebstormProjects/iam1/app.js#express#20;/Users/stefan/WebstormProjects/iam1/app.js#favicon#114;/Users/stefan/WebstormProjects/iam1/app.js#flash#226;/Users/stefan/WebstormProjects/iam1/app.js#index#2434;/Users/stefan/WebstormProjects/iam1/app.js#logger#54;/Users/stefan/WebstormProjects/iam1/app.js#mongoose#154;/Users/stefan/WebstormProjects/iam1/app.js#passport#190;/Users/stefan/WebstormProjects/iam1/app.js#path#86;/Users/stefan/WebstormProjects/iam1/app.js#profile#2598;/Users/stefan/WebstormProjects/iam1/app.js#prohibited#2641;/Users/stefan/WebstormProjects/iam1/app.js#register#2553;/Users/stefan/WebstormProjects/iam1/app.js#res1#2690;/Users/stefan/WebstormProjects/iam1/app.js#res2#2727;/Users/stefan/WebstormProjects/iam1/app.js#res3#2764;/Users/stefan/WebstormProjects/iam1/app.js#session#361;/Users/stefan/WebstormProjects/iam1/app.js#users#2514;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/express/connection-sharing/app.js#express#5;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/examples/express/connection-sharing/app.js#mongoose#39;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/examples/express/connection-sharing/app.js#routes#185;</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/ckeditor/samples/appendto.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express/lib/application.js#Router#274;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/application.js#View#485;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/application.js#compileETag#557;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/application.js#compileQueryParser#614;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/application.js#compileTrust#672;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/application.js#debug#432;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/application.js#deprecate#709;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/application.js#finalhandler#230;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/application.js#flatten#753;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/application.js#http#515;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/application.js#merge#793;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/application.js#methods#308;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/application.js#middleware#342;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/application.js#query#389;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/application.js#resolve#839;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/application.js#setPrototyeOf#868;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/services/model/applyHooks.js#PromiseProvider#19;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/services/model/applyHooks.js#VersionError#91;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/services/model/applyMethods.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/services/model/applyStatics.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/array-flatten/array-flatten.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/schema/array.js#$exists#37;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/array.js#$type#82;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/array.js#EmbeddedDoc#469;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/array.js#Mixed#503;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/array.js#MongooseArray#424;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/array.js#SchemaType#123;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/array.js#Types#204;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/array.js#cast#535;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/array.js#castToNumber#642;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/array.js#geospatial#691;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/array.js#util#566;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/array.js#utils#594;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/types/array.js#Document#83;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/types/array.js#EmbeddedDocument#37;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/types/array.js#ObjectId#122;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/types/array.js#utils#160;</node>
+            <node x="" y="">$APPLICATION_CONFIG_DIR$/javascript/nodejs/7.7.2/core-modules/assert.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/node_modules/async/dist/async.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/passport/lib/middleware/authenticate.js#AuthenticationError#63;/Users/stefan/WebstormProjects/iam1/node_modules/passport/lib/middleware/authenticate.js#http#36;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/passport/lib/errors/authenticationerror.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/passport/lib/authenticator.js#SessionStrategy#36;/Users/stefan/WebstormProjects/iam1/node_modules/passport/lib/authenticator.js#connect.js#507;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/drivers/browser/binary.js#Binary#47;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/binary.js#Binary#47;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/schema/operators/bitwise.js#CastError#37;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/schema/boolean.js#SchemaType#71;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/boolean.js#utils#37;</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/markdown/bootstrap-markdown.min.js#jquery#99;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/debug/src/browser.js#debug.js#130;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/browser.js#PromiseProvider#30;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/browser.js#document_provider.js#2162;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/browser.js#error.js#603;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/browser.js#index.js#1472;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/browser.js#schema.js#880;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/browser.js#schematype.js#1901;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/browser.js#utils.js#2011;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/browser.js#virtualtype.js#1632;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/browserDocument.js#EventEmitter#96;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/browserDocument.js#InternalCache#335;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/browserDocument.js#MongooseError#132;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/browserDocument.js#NodeJSDocument#37;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/browserDocument.js#ObjectId#206;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/browserDocument.js#PromiseProvider#378;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/browserDocument.js#Schema#172;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/browserDocument.js#VersionError#446;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/browserDocument.js#embedded.js#3430;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/browserDocument.js#utils#250;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/error/browserMissingSchema.js#MongooseError#37;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/types/buffer.js#Binary#46;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/types/buffer.js#utils#80;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/schema/buffer.js#MongooseBuffer#148;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/buffer.js#SchemaType#180;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/buffer.js#document.js#1721;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/buffer.js#handleBitwiseOperator#37;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/buffer.js#utils#97;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/cast.js#StrictModeError#37;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/cast.js#Types#86;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/cast.js#utils#125;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/error/cast.js#MongooseError#37;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/error/cast.js#util#81;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/services/query/castUpdate.js#StrictModeError#19;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/services/query/castUpdate.js#utils#72;</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/chartjs/chart.min.js#moment#123;</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/ckeditor/ckeditor.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/collection.js#EventEmitter#52;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/collection.js#STATES#88;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js#Collection#104;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js#MongooseCollection#37;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js#inspect#6581;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js#utils#139;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/services/common.js#ObjectId#52;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/services/common.js#flatten#127;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/services/common.js#modifiedPaths#154;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/services/common.js#utils#97;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/passport/lib/framework/connect.js#authenticate#89;/Users/stefan/WebstormProjects/iam1/node_modules/passport/lib/framework/connect.js#initialize#36;/Users/stefan/WebstormProjects/iam1/node_modules/passport/lib/framework/connect.js#request.js#539;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/connection.js#Collection#231;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/connection.js#EventEmitter#84;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/connection.js#MongooseError#324;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/connection.js#PromiseProvider#392;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/connection.js#STATES#281;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/connection.js#Schema#197;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/connection.js#muri#364;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/connection.js#utils#37;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js#DisconnectedError#279;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js#MongooseConnection#37;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js#STATES#196;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js#mongo#91;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/connectionstate.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express-session/session/cookie.js#cookie#211;/Users/stefan/WebstormProjects/iam1/node_modules/express-session/session/cookie.js#merge#176;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/cookies/lib/cookies.js</node>
+            <node x="" y="">$APPLICATION_CONFIG_DIR$/javascript/nodejs/7.7.2/core-modules/crypto.js</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/datatables/dataTables.bootstrap.min.js;/Users/stefan/WebstormProjects/iam1/public/js/plugin/datatables/dataTables.bootstrap.min.js;</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/datatables/dataTables.colReorder.min.js#datatables#11212;/Users/stefan/WebstormProjects/iam1/public/js/plugin/datatables/dataTables.colReorder.min.js#jquery#11194;</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/datatables/dataTables.colVis.min.js#datatables#10157;/Users/stefan/WebstormProjects/iam1/public/js/plugin/datatables/dataTables.colVis.min.js#jquery#10139;</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/datatables/dataTables.tableTools.min.js#datatables#32549;/Users/stefan/WebstormProjects/iam1/public/js/plugin/datatables/dataTables.tableTools.min.js#jquery#32531;</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/ckeditor/samples/datafiltering.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/schema/date.js#MongooseError#37;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/date.js#SchemaType#112;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/date.js#utils#78;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/debug/src/debug.js#index.js#354;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/types/decimal128.js#Decimal128#149;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/schema/decimal128.js#Decimal128Type#144;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/decimal128.js#SchemaType#63;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/decimal128.js#document.js#1564;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/decimal128.js#utils#197;</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/ckeditor/samples/plugins/dialog/dialog.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/error/disconnected.js#MongooseError#37;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/services/model/discriminator.js#utils#19;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/error/divergentArray.js#MongooseError#38;</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/ckeditor/samples/divreplace.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/doc-methods.js#mongoose#5;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/document.js#EventEmitter#52;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/document.js#InternalCache#574;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/document.js#MixedSchema#128;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/document.js#MongooseError#88;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/document.js#ObjectExpectedError#207;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/document.js#PromiseProvider#686;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/document.js#Schema#173;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/document.js#StrictModeError#268;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/document.js#ValidatorError#334;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/document.js#array.js#23295;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/document.js#documentarray.js#42853;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/document.js#embedded.js#22986;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/document.js#flatten#801;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/document.js#hooks#650;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/document.js#inspect#492;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/document.js#mpath#843;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/document.js#utils#378;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/document_provider.js#BrowserDocument#118;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/document_provider.js#Document#77;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/document_provider.web.js#BrowserDocument#77;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/types/documentarray.js#Document#200;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/types/documentarray.js#MongooseArray#37;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/types/documentarray.js#ObjectId#77;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/types/documentarray.js#ObjectIdSchema#115;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/types/documentarray.js#utils#167;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/schema/documentarray.js#ArrayType#63;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/documentarray.js#CastError#99;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/documentarray.js#EventEmitter#156;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/documentarray.js#MongooseDocumentArray#192;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/documentarray.js#SchemaType#255;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/documentarray.js#Subdocument#298;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/documentarray.js#applyHooks#346;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/documentarray.js#discriminator#404;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/documentarray.js#util#468;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/documentarray.js#utils#496;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/xmldom/dom-parser.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/node_modules/async/each.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/ejs/ejs.js#_VERSION_STRING#2271;/Users/stefan/WebstormProjects/iam1/node_modules/ejs/ejs.js#_process#34571;/Users/stefan/WebstormProjects/iam1/node_modules/ejs/ejs.js#fs#2137;/Users/stefan/WebstormProjects/iam1/node_modules/ejs/ejs.js#path#2161;/Users/stefan/WebstormProjects/iam1/node_modules/ejs/ejs.js#utils#2189;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/ejs/lib/ejs.js#_VERSION_STRING#1427;/Users/stefan/WebstormProjects/iam1/node_modules/ejs/lib/ejs.js#fs#1293;/Users/stefan/WebstormProjects/iam1/node_modules/ejs/lib/ejs.js#path#1317;/Users/stefan/WebstormProjects/iam1/node_modules/ejs/lib/ejs.js#utils#1345;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/ejs/ejs.min.js#_VERSION_STRING#975;/Users/stefan/WebstormProjects/iam1/node_modules/ejs/ejs.min.js#_process#16182;/Users/stefan/WebstormProjects/iam1/node_modules/ejs/ejs.min.js#fs#856;/Users/stefan/WebstormProjects/iam1/node_modules/ejs/ejs.min.js#path#877;/Users/stefan/WebstormProjects/iam1/node_modules/ejs/ejs.min.js#utils#902;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/types/embedded.js#Document#69;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/types/embedded.js#EventEmitter#134;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/types/embedded.js#PromiseProvider#170;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/schema/embedded.js#$exists#52;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/embedded.js#EventEmitter#112;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/embedded.js#SchemaType#148;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/embedded.js#Subdocument#191;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/embedded.js#applyHooks#242;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/embedded.js#castToNumber#315;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/embedded.js#geospatial#364;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/connect-ensure-login/lib/ensureLoggedIn.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/connect-ensure-login/lib/ensureLoggedOut.js</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/ckeditor/samples/plugins/enterkey/enterkey.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/should/lib/eql.js#util#96;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/error.js#DivergentArrayError#1338;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/error.js#OverwriteModelError#1198;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/error.js#VersionError#1141;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/error.js#cast.js#925;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/error.js#divergentArray.js#1374;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/error.js#messages.js#770;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/error.js#missingSchema.js#1304;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/error.js#notFound.js#988;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/error.js#overwriteModel.js#1234;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/error.js#validation.js#1049;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/error.js#validator.js#1111;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/error.js#version.js#1170;</node>
+            <node x="" y="">$APPLICATION_CONFIG_DIR$/javascript/nodejs/7.7.2/core-modules/events.js#EventEmitter#420;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/schema/operators/exists.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express/lib/express.js#EventEmitter#233;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/express.js#Route#349;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/express.js#Router#388;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/express.js#index.js#1513;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/express.js#mixin#269;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/express.js#proto#311;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/express.js#query.js#1465;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/express.js#req#422;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/express.js#res#454;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/connect-flash/lib/flash.js#format#45;/Users/stefan/WebstormProjects/iam1/node_modules/connect-flash/lib/flash.js#isArray#83;</node>
+            <node x="" y="">$APPLICATION_CONFIG_DIR$/javascript/nodejs/7.7.2/core-modules/fs.js</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/ckeditor/samples/plugins/wysiwygarea/fullpage.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/geospatial/geoJSONSchema.js#mongoose#37;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/geospatial/geoJSONexample.js#async#50;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/examples/geospatial/geoJSONexample.js#geoJSONSchema.js#154;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/examples/geospatial/geoJSONexample.js#mongoose#120;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/geospatial/geospatial.js#async#50;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/examples/geospatial/geospatial.js#mongoose#120;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/examples/geospatial/geospatial.js#person.js#154;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/schema/operators/geospatial.js#SchemaArray#323;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/operators/geospatial.js#castArraysOfNumbers#59;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/operators/geospatial.js#castToNumber#120;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/globalschemas/gs_example.js#mongoose#4;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/examples/globalschemas/gs_example.js#person.js#118;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/schema/operators/helpers.js#Types#52;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/operators/helpers.js#castArraysOfNumbers#154;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/operators/helpers.js#castToNumber#117;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/hooks-fixed/hooks.js</node>
+            <node x="" y="">$APPLICATION_CONFIG_DIR$/javascript/nodejs/7.7.2/core-modules/http.js#createServer#568;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/should/lib/http.js#STATUS_CODES#125;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/iconv-lite/lib/index.d.ts</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/ckeditor/samples/index.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/proxy-addr/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/cookie/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/xml-crypto/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/kareem/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express/node_modules/qs/lib/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/escape-html/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/http-errors/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/debug/node_modules/ms/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/on-finished/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/routes/index.js#express#6;/Users/stefan/WebstormProjects/iam1/routes/index.js#util#75;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/utils-merge/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/jade/lib/index.js</node>
+            <node x="" y="">crc32;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/content-type/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express/node_modules/etag/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express/node_modules/fresh/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/finalhandler/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express/node_modules/setprototypeof/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/range-parser/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/regexp-clone/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/serve-static/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/index.js#index.js#53;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/sliced/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express-session/index.js#Cookie#638;/Users/stefan/WebstormProjects/iam1/node_modules/express-session/index.js#MemoryStore#592;/Users/stefan/WebstormProjects/iam1/node_modules/express-session/index.js#Session#549;/Users/stefan/WebstormProjects/iam1/node_modules/express-session/index.js#Store#679;/Users/stefan/WebstormProjects/iam1/node_modules/express-session/index.js#cookie#230;/Users/stefan/WebstormProjects/iam1/node_modules/express-session/index.js#crc#268;/Users/stefan/WebstormProjects/iam1/node_modules/express-session/index.js#debug#294;/Users/stefan/WebstormProjects/iam1/node_modules/express-session/index.js#deprecate#343;/Users/stefan/WebstormProjects/iam1/node_modules/express-session/index.js#onHeaders#466;/Users/stefan/WebstormProjects/iam1/node_modules/express-session/index.js#parseUrl#395;/Users/stefan/WebstormProjects/iam1/node_modules/express-session/index.js#signature#504;/Users/stefan/WebstormProjects/iam1/node_modules/express-session/index.js#uid#437;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express/index.js#express.js#198;</node>
+            <node x="" y="">Binary;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/index.js#Collection#14917;ObjectId;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/accepts/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/cookie-parser/index.js#cookie#190;/Users/stefan/WebstormProjects/iam1/node_modules/cookie-parser/index.js#signature#222;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/path-to-regexp/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/morgan/index.js#auth#411;/Users/stefan/WebstormProjects/iam1/node_modules/morgan/index.js#debug#444;/Users/stefan/WebstormProjects/iam1/node_modules/morgan/index.js#deprecate#483;/Users/stefan/WebstormProjects/iam1/node_modules/morgan/index.js#onFinished#525;/Users/stefan/WebstormProjects/iam1/node_modules/morgan/index.js#onHeaders#565;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/methods/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/should/index.js#should.js#18;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/body-parser/index.js#deprecate#156;/Users/stefan/WebstormProjects/iam1/node_modules/body-parser/index.js#json.js#2302;/Users/stefan/WebstormProjects/iam1/node_modules/body-parser/index.js#raw.js#2373;/Users/stefan/WebstormProjects/iam1/node_modules/body-parser/index.js#text.js#2444;/Users/stefan/WebstormProjects/iam1/node_modules/body-parser/index.js#urlencoded.js#2522;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/serve-favicon/index.js#etag#228;/Users/stefan/WebstormProjects/iam1/node_modules/serve-favicon/index.js#fresh#256;/Users/stefan/WebstormProjects/iam1/node_modules/serve-favicon/index.js#fs#286;/Users/stefan/WebstormProjects/iam1/node_modules/serve-favicon/index.js#ms#310;/Users/stefan/WebstormProjects/iam1/node_modules/serve-favicon/index.js#parseUrl#334;/Users/stefan/WebstormProjects/iam1/node_modules/serve-favicon/index.js#path#370;</node>
+            <node x="" y="">sign;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/debug/src/index.js#browser.js#186;/Users/stefan/WebstormProjects/iam1/node_modules/debug/src/index.js#node.js#239;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/type-is/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/merge-descriptors/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/schema/storing-schemas-as-json/index.js#mongoose#16;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/examples/schema/storing-schemas-as-json/index.js#raw#101;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/content-disposition/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/passport-saml/lib/passport-saml/index.js#SAML#57;/Users/stefan/WebstormProjects/iam1/node_modules/passport-saml/lib/passport-saml/index.js#Strategy#0;/Users/stefan/WebstormProjects/iam1/node_modules/passport-saml/lib/passport-saml/index.js#strategy.js#19;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/xmlbuilder/lib/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/xml-encryption/lib/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/connect-ensure-login/lib/index.js#ensureLoggedIn.js#85;/Users/stefan/WebstormProjects/iam1/node_modules/connect-ensure-login/lib/index.js#ensureLoggedOut.js#234;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/parseurl/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/raw-body/index.js</node>
+            <node x="" y="">Binary;Decimal128;ObjectID;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/statuses/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express/lib/router/index.js#Layer#262;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/router/index.js#Route#230;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/router/index.js#debug#364;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/router/index.js#deprecate#412;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/router/index.js#flatten#456;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/router/index.js#methods#294;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/router/index.js#mixin#328;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/router/index.js#parseUrl#496;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/router/index.js#setPrototypeOf#532;</node>
+            <node x="" y="">sync;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/connect-flash/lib/index.js#flash.js#57;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/index.js#Aggregate#618;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/index.js#Collection#14653;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/index.js#Connection#14579;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/index.js#Document#311;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/index.js#Model#279;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/index.js#PromiseProvider#658;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/index.js#Query#247;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/index.js#STATES#172;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/index.js#Schema#52;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/index.js#SchemaType#86;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/index.js#Types#215;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/index.js#VirtualType#128;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/index.js#cast.js#18505;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/index.js#document_provider.js#17963;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/index.js#error.js#18125;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/index.js#index.js#18703;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/index.js#mquery.js#18881;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/index.js#pkg#418;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/index.js#querystring#457;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/index.js#saveSubdocs#499;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/index.js#utils#349;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/index.js#validateBeforeSave#551;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/depd/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/encodeurl/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/types/index.js#Array#29;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/types/index.js#Buffer#65;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/types/index.js#Embedded#137;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/types/index.js#array.js#45;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/types/index.js#buffer.js#82;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/types/index.js#decimal128.js#253;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/types/index.js#documentarray.js#204;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/types/index.js#embedded.js#156;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/types/index.js#objectid.js#297;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/types/index.js#subdocument.js#343;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/schema/index.js#array.js#260;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/index.js#boolean.js#125;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/index.js#buffer.js#298;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/index.js#date.js#335;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/index.js#decimal128.js#474;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/index.js#documentarray.js#172;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/index.js#embedded.js#220;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/index.js#mixed.js#414;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/index.js#number.js#85;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/index.js#objectid.js#374;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/index.js#string.js#46;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/muri/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/drivers/index.js#/node-mongodb-native#80;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/drivers/browser/index.js#Binary#28;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/drivers/browser/index.js#ObjectId#66;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/drivers/browser/index.js#ReadPreference#108;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/drivers/index.js#index.js#165;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/drivers/browser/index.js#ReadPreference.js#133;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/drivers/browser/index.js#binary.js#45;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/drivers/browser/index.js#objectid.js#85;</node>
+            <node x="" y="">mime;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/index.js#ReadPreference.js#133;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/drivers/node-mongodb-native/index.js#binary.js#45;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/drivers/node-mongodb-native/index.js#objectid.js#85;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/vary/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/passport/lib/index.js#Passport#36;/Users/stefan/WebstormProjects/iam1/node_modules/passport/lib/index.js#SessionStrategy#78;/Users/stefan/WebstormProjects/iam1/node_modules/passport/lib/index.js#index.js#334;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/basic-auth/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/bytes/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/passport-strategy/lib/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/cookie-session/index.js#Cookies#241;/Users/stefan/WebstormProjects/iam1/node_modules/cookie-session/index.js#debug#193;/Users/stefan/WebstormProjects/iam1/node_modules/cookie-session/index.js#onHeaders#275;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mpath/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/pause/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/on-headers/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/drivers/index.web.js#index.js#36;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/util/node_modules/inherits/inherits.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express/lib/middleware/init.js#setPrototyeOf#230;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/passport/lib/middleware/initialize.js</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/ckeditor/samples/inlineall.html</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/ckeditor/samples/inlinebycode.html</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/ckeditor/samples/inlinetextarea.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/passport-saml/lib/passport-saml/inmemory-cache-provider.js#CacheProvider#2775;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/internal.js#StateMachine#29;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/util/support/isBuffer.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/services/projection/isPathSelectedInclusive.js</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/datatables/jquery.dataTables.min.js;</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/easy-pie-chart/jquery.easy-pie-chart.min.js;</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/fullcalendar/jquery.fullcalendar.min.js#jquery#219;/Users/stefan/WebstormProjects/iam1/public/js/plugin/fullcalendar/jquery.fullcalendar.min.js#moment#237;</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/ckeditor/samples/jquery.html</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/ckeditor/adapters/jquery.js</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/knob/jquery.knob.min.js#jquery#72;</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/masked-input/jquery.maskedinput.min.js#jquery#99;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/body-parser/lib/types/json.js#bytes#190;/Users/stefan/WebstormProjects/iam1/node_modules/body-parser/lib/types/json.js#contentType#219;/Users/stefan/WebstormProjects/iam1/node_modules/body-parser/lib/types/json.js#createError#261;/Users/stefan/WebstormProjects/iam1/node_modules/body-parser/lib/types/json.js#debug#302;/Users/stefan/WebstormProjects/iam1/node_modules/body-parser/lib/types/json.js#read#351;/Users/stefan/WebstormProjects/iam1/node_modules/body-parser/lib/types/json.js#typeis#381;</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/ckeditor/samples/assets/uilanguages/languages.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express/lib/router/layer.js#debug#274;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/router/layer.js#pathRegexp#230;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/lean/lean.js#async#51;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/examples/lean/lean.js#mongoose#121;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/examples/lean/lean.js#person.js#155;</node>
+            <node x="" y="">$PROJECT_DIR$/routes/login.js#express#4;</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/ckeditor/samples/assets/inlineall/logo.png</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/ckeditor/samples/plugins/magicline/magicline.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/mapreduce/mapreduce.js#async#50;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/examples/mapreduce/mapreduce.js#mongoose#120;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/examples/mapreduce/mapreduce.js#person.js#154;</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/markdown/markdown.min.js#a#156;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express-session/session/memory.js#Store#225;/Users/stefan/WebstormProjects/iam1/node_modules/express-session/session/memory.js#util#256;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/error/messages.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/error/missingSchema.js#MongooseError#38;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/schema/mixed.js#SchemaType#37;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/mixed.js#utils#80;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/model.js#Aggregate#37;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/model.js#DivergentArrayError#194;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/model.js#Document#77;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/model.js#DocumentNotFoundError#115;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/model.js#EventEmitter#253;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/model.js#OverwriteModelError#311;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/model.js#PromiseProvider#355;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/model.js#Query#408;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/model.js#Schema#440;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/model.js#VersionError#489;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/model.js#applyHooks#526;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/model.js#applyMethods#583;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/model.js#applyStatics#644;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/model.js#cast#705;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/model.js#castUpdate#735;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/model.js#discriminator#792;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/model.js#isPathSelectedInclusive#855;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/model.js#model#65533;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/model.js#parallel#943;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/model.js#util#985;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/model.js#utils#1013;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/express/connection-sharing/modelA.js#Schema#13;</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/x-editable/moment.min.js#t#1470;</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/moment/moment.min.js#a#2796;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/promise_provider.js#Promise#547;</node>
+            <node x="" y="">$APPLICATION_CONFIG_DIR$/javascript/nodejs/7.7.2/core-modules/net.js#isIP#41094;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/debug/node.js#node.js#17;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/debug/src/node.js#debug.js#214;/Users/stefan/WebstormProjects/iam1/node_modules/debug/src/node.js#fs#4359;/Users/stefan/WebstormProjects/iam1/node_modules/debug/src/node.js#net#4528;/Users/stefan/WebstormProjects/iam1/node_modules/debug/src/node.js#tty#37;/Users/stefan/WebstormProjects/iam1/node_modules/debug/src/node.js#util#63;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/error/notFound.js#MongooseError#52;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/error/notFound.js#util#96;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/schema/number.js#MongooseError#178;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/number.js#SchemaType#37;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/number.js#document.js#4882;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/number.js#handleBitwiseOperator#118;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/number.js#utils#219;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/error/objectExpected.js#MongooseError#37;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/types/objectid.js#ObjectId#147;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/schema/objectid.js#SchemaType#63;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/objectid.js#document.js#1830;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/objectid.js#oid#144;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/objectid.js#utils#184;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/drivers/browser/objectid.js#ObjectId#160;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/objectid.js#ObjectId#160;</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/ckeditor/samples/plugins/htmlwriter/outputforflash.html</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/ckeditor/samples/plugins/htmlwriter/outputhtml.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/error/overwriteModel.js#MongooseError#38;</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/pace/pace.min.js;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/package.json</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/ejs/package.json#version#2619;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/node_modules/async/parallel.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/passport-local-mongoose/lib/passport-local-mongoose.js</node>
+            <node x="" y="">$APPLICATION_CONFIG_DIR$/javascript/nodejs/7.7.2/core-modules/path.js#basename#39369;/Users/stefan/Library/Preferences/WebStorm2017.1/javascript/nodejs/7.7.2/core-modules/path.js#resolve#33754;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/lean/person.js#mongoose#36;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/statics/person.js#mongoose#36;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/promises/person.js#mongoose#37;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/aggregate/person.js#mongoose#37;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/mapreduce/person.js#mongoose#37;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/geospatial/person.js#mongoose#36;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/replicasets/person.js#mongoose#37;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/querybuilder/person.js#mongoose#37;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/globalschemas/person.js#mongoose#36;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/population/population-across-three-collections.js#assert#5;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/examples/population/population-across-three-collections.js#dbname#217;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/examples/population/population-across-three-collections.js#mongoose#37;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/examples/population/population-across-three-collections.js#s#2361;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/population/population-basic.js#mongoose#5;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/population/population-of-existing-doc.js#mongoose#5;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/population/population-of-multiple-existing-docs.js#mongoose#5;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/population/population-options.js#mongoose#5;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/population/population-plain-objects.js#mongoose#5;</node>
+            <node x="" y="">$PROJECT_DIR$/routes/profile.js#express#6;</node>
+            <node x="" y="">$PROJECT_DIR$/routes/prohibited.js#express#4;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/promises/promise.js#async#50;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/examples/promises/promise.js#mongoose#120;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/examples/promises/promise.js#person.js#154;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/promise.js#MPromise#36;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/promise.js#util#72;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mpromise/lib/promise.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/promise_provider.js#ES6Promise.js#491;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/promise_provider.js#MPromise#37;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/promise_provider.js#Promise#547;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/q/q.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express/lib/middleware/query.js#parseUrl#218;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/middleware/query.js#qs#254;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/query.js#PromiseProvider#37;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/query.js#QueryCursor#90;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/query.js#QueryStream#134;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/query.js#cast#178;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/query.js#castUpdate#208;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/query.js#helpers#265;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/query.js#mquery#306;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/query.js#readPref#349;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/query.js#setDefaultsOnInsert#390;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/query.js#updateValidators#459;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/query.js#util#522;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/query.js#utils#550;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/querybuilder/querybuilder.js#async#51;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/examples/querybuilder/querybuilder.js#mongoose#121;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/examples/querybuilder/querybuilder.js#person.js#155;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/querycursor.js#PromiseProvider#37;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/querycursor.js#Readable#101;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/querycursor.js#helpers#133;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/querycursor.js#util#174;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/queryhelpers.js#createModel#1164;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/queryhelpers.js#utils#37;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/querystream.js#Stream#72;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/querystream.js#helpers#134;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/querystream.js#utils#102;</node>
+            <node x="" y="">$APPLICATION_CONFIG_DIR$/javascript/nodejs/7.7.2/core-modules/querystring.js</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/morris/raphael.min.js#eve#2575;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/body-parser/lib/types/raw.js#bytes#144;/Users/stefan/WebstormProjects/iam1/node_modules/body-parser/lib/types/raw.js#debug#173;/Users/stefan/WebstormProjects/iam1/node_modules/body-parser/lib/types/raw.js#read#221;/Users/stefan/WebstormProjects/iam1/node_modules/body-parser/lib/types/raw.js#typeis#251;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/body-parser/lib/read.js#createError#156;/Users/stefan/WebstormProjects/iam1/node_modules/body-parser/lib/read.js#getBody#197;/Users/stefan/WebstormProjects/iam1/node_modules/body-parser/lib/read.js#iconv#231;/Users/stefan/WebstormProjects/iam1/node_modules/body-parser/lib/read.js#onFinished#265;/Users/stefan/WebstormProjects/iam1/node_modules/body-parser/lib/read.js#zlib#305;</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/ckeditor/samples/readonly.html</node>
+            <node x="" y="">$PROJECT_DIR$/routes/register.js#express#4;</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/ckeditor/samples/replacebyclass.html</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/ckeditor/samples/replacebycode.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/replicasets/replica-sets.js#async#51;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/examples/replicasets/replica-sets.js#mongoose#121;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/examples/replicasets/replica-sets.js#person.js#155;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express/lib/request.js#accepts#230;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/request.js#deprecate#264;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/request.js#fresh#401;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/request.js#http#373;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/request.js#isIP#315;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/request.js#parse#473;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/request.js#parseRange#431;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/request.js#proxyaddr#506;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/request.js#typeis#340;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/passport/lib/http/request.js#http#36;</node>
+            <node x="" y="">$PROJECT_DIR$/routes/res1.js#express#6;</node>
+            <node x="" y="">$PROJECT_DIR$/routes/res2.js#express#6;</node>
+            <node x="" y="">$PROJECT_DIR$/routes/res3.js#express#6;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express/lib/response.js#contentDisposition#194;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/response.js#cookie#793;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/response.js#deprecate#251;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/response.js#encodeUrl#295;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/response.js#escapeHtml#333;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/response.js#http#374;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/response.js#isAbsolute#415;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/response.js#merge#554;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/response.js#normalizeType#651;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/response.js#normalizeTypes#706;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/response.js#onFinished#450;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/response.js#path#491;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/response.js#send#825;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/response.js#setCharset#758;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/response.js#sign#597;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/response.js#statuses#519;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/response.js#vary#931;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express/lib/router/route.js#Layer#324;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/router/route.js#debug#230;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/router/route.js#flatten#284;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/router/route.js#methods#356;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/express/connection-sharing/routes.js#model#5;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/passport-saml/lib/passport-saml/saml.js#InMemoryCacheProvider#368;/Users/stefan/WebstormProjects/iam1/node_modules/passport-saml/lib/passport-saml/saml.js#Q#427;/Users/stefan/WebstormProjects/iam1/node_modules/passport-saml/lib/passport-saml/saml.js#SAML#31774;/Users/stefan/WebstormProjects/iam1/node_modules/passport-saml/lib/passport-saml/saml.js#crypto#103;/Users/stefan/WebstormProjects/iam1/node_modules/passport-saml/lib/passport-saml/saml.js#querystring#193;/Users/stefan/WebstormProjects/iam1/node_modules/passport-saml/lib/passport-saml/saml.js#url#167;/Users/stefan/WebstormProjects/iam1/node_modules/passport-saml/lib/passport-saml/saml.js#xml2js#32;/Users/stefan/WebstormProjects/iam1/node_modules/passport-saml/lib/passport-saml/saml.js#xmlCrypto#64;/Users/stefan/WebstormProjects/iam1/node_modules/passport-saml/lib/passport-saml/saml.js#xmlbuilder#235;/Users/stefan/WebstormProjects/iam1/node_modules/passport-saml/lib/passport-saml/saml.js#xmldom#135;/Users/stefan/WebstormProjects/iam1/node_modules/passport-saml/lib/passport-saml/saml.js#xmlenc#275;/Users/stefan/WebstormProjects/iam1/node_modules/passport-saml/lib/passport-saml/saml.js#zlib#4;</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/ckeditor/samples/sample.css</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/ckeditor/samples/assets/sample.jpg</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/ckeditor/samples/sample.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/plugins/saveSubdocs.js#each#19;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/schema/schema.js#mongoose#37;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/schema.js#EventEmitter#104;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema.js#Kareem#235;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema.js#SchemaType#301;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema.js#VirtualType#140;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema.js#each#267;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema.js#index.js#45720;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema.js#readPref#48;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema.js#utils#184;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/schema/storing-schemas-as-json/schema.json</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/schematype.js#$exists#37;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schematype.js#$type#89;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schematype.js#MongooseError#169;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schematype.js#ValidatorError#28723;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schematype.js#legacyAsyncValidate#24550;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schematype.js#utils#137;</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/select2/select2.min.js#jquery#251;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express-session/session/session.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/passport/lib/strategies/session.js#Strategy#92;/Users/stefan/WebstormProjects/iam1/node_modules/passport/lib/strategies/session.js#pause#36;/Users/stefan/WebstormProjects/iam1/node_modules/passport/lib/strategies/session.js#util#65;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/services/setDefaultsOnInsert.js#modifiedPaths#35;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/should/should.js#assert#6403;/Users/stefan/WebstormProjects/iam1/node_modules/should/should.js#eql#6526;/Users/stefan/WebstormProjects/iam1/node_modules/should/should.js#inspect#6563;/Users/stefan/WebstormProjects/iam1/node_modules/should/should.js#shims#40426;/Users/stefan/WebstormProjects/iam1/node_modules/should/should.js#statusCodes#6491;/Users/stefan/WebstormProjects/iam1/node_modules/should/should.js#util#828;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/should/lib/should.js#assert#163;/Users/stefan/WebstormProjects/iam1/node_modules/should/lib/should.js#eql#286;/Users/stefan/WebstormProjects/iam1/node_modules/should/lib/should.js#inspect#323;/Users/stefan/WebstormProjects/iam1/node_modules/should/lib/should.js#statusCodes#251;/Users/stefan/WebstormProjects/iam1/node_modules/should/lib/should.js#util#134;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/statemachine.js#utils#38;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/static.js#createServer#88;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/static.js#static#5;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/statics/statics.js#mongoose#4;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/examples/statics/statics.js#person.js#60;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express-session/session/store.js#Cookie#187;/Users/stefan/WebstormProjects/iam1/node_modules/express-session/session/store.js#EventEmitter#235;/Users/stefan/WebstormProjects/iam1/node_modules/express-session/session/store.js#Session#270;/Users/stefan/WebstormProjects/iam1/node_modules/express-session/session/store.js#util#305;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/passport-saml/lib/passport-saml/strategy.js#passport#4;/Users/stefan/WebstormProjects/iam1/node_modules/passport-saml/lib/passport-saml/strategy.js#saml#77;/Users/stefan/WebstormProjects/iam1/node_modules/passport-saml/lib/passport-saml/strategy.js#util#49;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/error/strict.js#MongooseError#37;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/schema/string.js#MongooseError#118;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/string.js#SchemaType#37;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/string.js#document.js#11367;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/schema/string.js#utils#159;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/types/subdocument.js#Document#4;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/types/subdocument.js#PromiseProvider#43;</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/summernote/summernote.min.js;/Users/stefan/WebstormProjects/iam1/public/js/plugin/summernote/summernote.min.js#jquery#129;</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/ckeditor/samples/plugins/htmlwriter/assets/outputforflash/swfobject.js</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/ckeditor/samples/tabindex.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/body-parser/lib/types/text.js#bytes#144;/Users/stefan/WebstormProjects/iam1/node_modules/body-parser/lib/types/text.js#contentType#173;/Users/stefan/WebstormProjects/iam1/node_modules/body-parser/lib/types/text.js#debug#215;/Users/stefan/WebstormProjects/iam1/node_modules/body-parser/lib/types/text.js#read#264;/Users/stefan/WebstormProjects/iam1/node_modules/body-parser/lib/types/text.js#typeis#294;</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/ckeditor/samples/plugins/toolbar/toolbar.html</node>
+            <node x="" y="">$APPLICATION_CONFIG_DIR$/javascript/nodejs/7.7.2/core-modules/tty.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/schema/operators/type.js</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/typeahead/typeahead.min.js#jquery#302;</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/ckeditor/samples/uicolor.html</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/ckeditor/samples/uilanguages.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/services/updateValidators.js#Mixed#37;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/services/updateValidators.js#ValidationError#77;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/services/updateValidators.js#flatten#183;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/services/updateValidators.js#modifiedPaths#232;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/services/updateValidators.js#parallel#131;</node>
+            <node x="" y="">$APPLICATION_CONFIG_DIR$/javascript/nodejs/7.7.2/core-modules/url.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/body-parser/lib/types/urlencoded.js#bytes#190;/Users/stefan/WebstormProjects/iam1/node_modules/body-parser/lib/types/urlencoded.js#contentType#219;/Users/stefan/WebstormProjects/iam1/node_modules/body-parser/lib/types/urlencoded.js#createError#261;/Users/stefan/WebstormProjects/iam1/node_modules/body-parser/lib/types/urlencoded.js#debug#302;/Users/stefan/WebstormProjects/iam1/node_modules/body-parser/lib/types/urlencoded.js#deprecate#357;/Users/stefan/WebstormProjects/iam1/node_modules/body-parser/lib/types/urlencoded.js#qs#4477;/Users/stefan/WebstormProjects/iam1/node_modules/body-parser/lib/types/urlencoded.js#querystring.js#4539;/Users/stefan/WebstormProjects/iam1/node_modules/body-parser/lib/types/urlencoded.js#read#404;/Users/stefan/WebstormProjects/iam1/node_modules/body-parser/lib/types/urlencoded.js#typeis#434;</node>
+            <node x="" y="">$PROJECT_DIR$/routes/users.js#express#6;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/util/util.js#inherits.js#15179;/Users/stefan/WebstormProjects/iam1/node_modules/util/util.js#isBuffer.js#13815;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/should/lib/util.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express/lib/utils.js#basename#426;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/utils.js#compileETag#3446;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/utils.js#compileQueryParser#3996;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/utils.js#compileTrust#4646;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/utils.js#contentDisposition#198;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/utils.js#contentType#255;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/utils.js#deprecate#298;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/utils.js#etag#456;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/utils.js#flatten#342;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/utils.js#isAbsolute#1308;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/utils.js#mime#389;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/utils.js#normalizeType#1915;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/utils.js#normalizeTypes#2193;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/utils.js#proxyaddr#484;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/utils.js#qs#523;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/utils.js#querystring#547;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/utils.js#setCharset#5243;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/ejs/lib/utils.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/utils.js#Array#10836;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/utils.js#Buffer#10901;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/utils.js#Decimal#37;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/utils.js#ObjectId#82;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/utils.js#cloneRegExp#126;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/utils.js#document.js#8890;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/utils.js#mpath#201;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/utils.js#ms#231;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/utils.js#random#7647;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/lib/utils.js#sliced#169;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/plugins/validateBeforeSave.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/error/validation.js#MongooseError#36;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/error/validator.js#MongooseError#37;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/error/version.js#MongooseError#52;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express/lib/view.js#__express#1569;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/view.js#debug#230;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/view.js#fs#304;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/view.js#path#276;/Users/stefan/WebstormProjects/iam1/node_modules/express/lib/view.js#utils#328;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/virtualtype.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/website.js#acquit#2027;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/website.js#filemap#1031;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/website.js#filters#301;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/website.js#fs#4;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/website.js#hl#92;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/website.js#href#189;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/website.js#jade#28;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/website.js#klass#232;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/website.js#linktype#138;/Users/stefan/WebstormProjects/iam1/node_modules/mongoose/website.js#package#56;</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/fuelux/wizard/wizard.min.js#jquery#114;</node>
+            <node x="" y="">$PROJECT_DIR$/bin/www#app#58;/Users/stefan/WebstormProjects/iam1/bin/www#debug#87;/Users/stefan/WebstormProjects/iam1/bin/www#http#132;</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/ckeditor/samples/xhtmlstyle.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/xml2js/lib/xml2js.js</node>
+            <node x="" y="">$APPLICATION_CONFIG_DIR$/javascript/nodejs/7.7.2/core-modules/zlib.js</node>
+            <node x="" y="">//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js</node>
+            <node x="" y="">/collection</node>
+            <node x="" y="">/connection</node>
+            <node x="" y="">/node-mongodb-native</node>
+            <node x="" y="">_process</node>
+            <node x="" y="">_shims</node>
+            <node x="" y="">a</node>
+            <node x="" y="">acquit</node>
+            <node x="" y="">codemirror</node>
+            <node x="" y="">cookie</node>
+            <node x="" y="">datatables</node>
+            <node x="" y="">datatables.net</node>
+            <node x="" y="">debug</node>
+            <node x="" y="">eql</node>
+            <node x="" y="">etag</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/plugin/morris/raphael.min.js;</node>
+            <node x="" y="">filters</node>
+            <node x="" y="">fresh</node>
+            <node x="" y="">highlight</node>
+            <node x="" y="">href</node>
+            <node x="" y="">STATUS_CODES;</node>
+            <node x="" y="">$PROJECT_DIR$/public/js/libs/jquery-2.1.1.min.js;</node>
+            <node x="" y="">klass</node>
+            <node x="" y="">linktype</node>
+            <node x="" y="">__express;</node>
+            <node x="" y="">moment</node>
+            <node x="" y="">ms</node>
+            <node x="" y="">node-static</node>
+            <node x="" y="">pace</node>
+            <node x="" y="">version;</node>
+            <node x="" y="">qs</node>
+            <node x="" y="">source</node>
+            <node x="" y="">Readable;/Users/stefan/Library/Preferences/WebStorm2017.1/javascript/nodejs/7.7.2/core-modules/net.js#Stream#8857;</node>
+            <node x="" y="">t</node>
+            <node x="" y="">deprecate;format;inspect;isArray;</node>
+            <node x="" y="">utils</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="6082.0" y="3534.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/res1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
