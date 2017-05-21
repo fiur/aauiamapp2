@@ -49,9 +49,15 @@ passport.deserializeUser(function (user, done) {
 
 passport.use(new SamlStrategy(
     {
-        path: '/login/callback',
-        entryPoint: 'https://localhost:9443/samlsso',
-        issuer: 'dummy'
+        //path: '/login/callback',
+        //entryPoint: 'https://aauiamapp.dk/adfs/ls',
+        //issuer: 'dummy'
+        entryPoint: 'https://aauiamapp.dk/adfs/ls/',
+        issuer: 'https://app2.aauiamapp.dk/login/callback',
+        callbackUrl: 'https://app2.aauiamapp.dk/login/callback',
+        //cert: 'MIICizCCAfQCCQCY8tKaMc0BMjANBgkqh ... W==',
+        authnContext: 'http://schemas.microsoft.com/ws/2008/06/identity/authenticationmethod/windows',
+        identifierFormat: null
     },
     function(profile, done){
         console.log('Profile: %j', profile);
