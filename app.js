@@ -55,7 +55,8 @@ passport.use(new SamlStrategy(
         entryPoint: 'https://aauiamapp.dk/adfs/ls/',
         callbackUrl: 'https://app2.aauiamapp.dk/login/callback',
         //cert: 'MIICizCCAfQCCQCY8tKaMc0BMjANBgkqh ... W==',
-        authnContext: 'http://schemas.microsoft.com/ws/2008/06/identity/authenticationmethod/windows',
+        disableRequestedAuthnContext: true,
+        //authnContext: 'http://schemas.microsoft.com/ws/2008/06/identity/authenticationmethod/windows',
         identifierFormat: null
     },
     function(profile, done){
