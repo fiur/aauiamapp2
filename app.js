@@ -12,6 +12,7 @@ var cookieParser = require('cookie-parser');
 var session = require('cookie-session');
 var bodyParser = require('body-parser');
 var SamlStrategy = require('passport-saml').Strategy;
+var fs = require('fs');
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -54,8 +55,8 @@ passport.use(new SamlStrategy(
         issuer: 'https://app2.aauiamapp.dk/',
         entryPoint: 'https://aauiamapp.dk/adfs/ls/',
         callbackUrl: 'https://app2.aauiamapp.dk/login/callback',
-        privateCert: fs.readFileSync('./App2_private.pem', 'utf-8'),
-        cert: fs.readFileSync('./aauiamapp.dk.crt', 'utf-8'),
+        privateCert: fs.readFileSync('App2_private.pem', 'utf-8'),
+        cert: fs.readFileSync('aauiamapp.dk.crt', 'utf-8'),
         disableRequestedAuthnContext: true,
         //authnContext: 'http://schemas.microsoft.com/ws/2008/06/identity/authenticationmethod/windows',
         identifierFormat: null
