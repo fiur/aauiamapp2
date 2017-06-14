@@ -55,7 +55,7 @@ passport.use(new SamlStrategy(
         entryPoint: 'https://aauiamapp.dk/adfs/ls/',
         callbackUrl: 'https://app2.aauiamapp.dk/login/callback',
         privateCert: fs.readFileSync('./App2_private.pem', 'utf-8'),
-        cert: fs.readFileSync('./idp_public.pem', 'utf-8'),
+        cert: fs.readFileSync('./aauiamapp.dk.crt', 'utf-8'),
         disableRequestedAuthnContext: true,
         //authnContext: 'http://schemas.microsoft.com/ws/2008/06/identity/authenticationmethod/windows',
         identifierFormat: null
