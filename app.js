@@ -55,11 +55,13 @@ passport.use(new SamlStrategy(
         issuer: 'https://app2.aauiamapp.dk/',
         entryPoint: 'https://aauiamapp.dk/adfs/ls/',
         callbackUrl: 'https://app2.aauiamapp.dk/login/callback',
-        privateCert: fs.readFileSync('App2_private.pem', 'utf-8'),
-        cert: fs.readFileSync('aauiamapp.dk.crt', 'utf-8'),
-        disableRequestedAuthnContext: true,
-        //authnContext: 'http://schemas.microsoft.com/ws/2008/06/identity/authenticationmethod/windows',
-        identifierFormat: null
+        //privateCert: fs.readFileSync('../App2_private.pem', 'utf-8'),
+        //cert: fs.readFileSync('../b64_aauiamapp_public.cer', 'utf-8'),
+        // other authn contexts are available e.g. windows single sign-on
+        authnContext: 'http://schemas.microsoft.com/ws/2008/06/identity/authenticationmethod/password',
+        // not sure if this is necessary?
+        acceptedClockSkewMs: -1,
+        identifierFormat: null,
     },
     function(profile, done){
         console.log('Profile: %j', profile);
@@ -119,9 +121,10 @@ var res3 = require('./routes/res3');
 
 function ensureAuthenticated(req, res, next) {
     if (req.isAuthenticated()) {
+        console.log("The user is logged in");
         // req.user is available for use here
         return next(); }
-
+    console.log("The user is not logged in and redirected to login");
     // denied. redirect to login
     res.redirect('/login')
 }
