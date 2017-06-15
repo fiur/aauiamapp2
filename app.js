@@ -103,6 +103,7 @@ var prohibited = require('./routes/prohibited');
 var res1 = require('./routes/res1');
 var res2 = require('./routes/res2');
 var res3 = require('./routes/res3');
+var res4 = require('./routes/res4');
 
 // Simple middleware to ensure user is authenticated.
 // Use this middleware on any resource that needs to be protected.
@@ -127,13 +128,13 @@ function ensureAuthZres1(req, res, next) {
     var saml = JSON.stringify(req.user, null, 4);
     var json = JSON.parse(saml);
 
-    var userid = json["http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname"];
+    var subject = json["http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname"];
     var resource = '/ict/icte';
     var action = 'update';
 
     var url = 'https://www.aauiamapp.dk:9443/services/EntitlementService?wsdl';
     var args = {
-        subject: userid,
+        subject: subject,
         resource: resource,
         action: action
     };
@@ -161,14 +162,24 @@ function ensureAuthZres1(req, res, next) {
 
 }
 
-function ensureAuthZres2(req, res, next) {
+function ensureAuthZres1(req, res, next) {
+
+    var saml = JSON.stringify(req.user, null, 4);
+    var json = JSON.parse(saml);
+
+    var subject = json["http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname"];
+    var resource = '/ict/icte';
+    var action = 'update';
 
     var url = 'https://www.aauiamapp.dk:9443/services/EntitlementService?wsdl';
     var args = {
-        subject:'samant',
-        resource:'/ict/icte',
-        action:'update'
+        subject: subject,
+        resource: resource,
+        action: action
     };
+
+    console.log("subject: " + subject + "res: " + resource + "action: " + action + " requested for authz");
+
     process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
     soap.createClient(url, function(err, client) {
         client.setSecurity(new soap.BasicAuthSecurity('admin', 'admin'));
@@ -190,16 +201,75 @@ function ensureAuthZres2(req, res, next) {
 
 }
 
+function ensureAuthZres1(req, res, next) {
+    var saml = JSON.stringify(req.user, null, 4);
+    var json = JSON.parse(saml);
+    var subject = json["http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname"];
+    var resource = '/ict/itcom';
+    var action = 'create';
+    var args = {subject: subject, resource: resource, action: action};
+    authz(args);
+}
 
+function ensureAuthZres2(req, res, next) {
+    var saml = JSON.stringify(req.user, null, 4);
+    var json = JSON.parse(saml);
+    var subject = json["http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname"];
+    var resource = '/ict/itcom';
+    var action = 'read';
+    var args = {subject: subject, resource: resource, action: action};
+    authz(args);
+}
 
+function ensureAuthZres3(req, res, next) {
+    var saml = JSON.stringify(req.user, null, 4);
+    var json = JSON.parse(saml);
+    var subject = json["http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname"];
+    var resource = '/ict/itcom';
+    var action = 'update';
+    var args = {subject: subject, resource: resource, action: action};
+    authz(args);
+}
+
+function ensureAuthZres4(req, res, next) {
+    var saml = JSON.stringify(req.user, null, 4);
+    var json = JSON.parse(saml);
+    var subject = json["http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname"];
+    var resource = '/ict/itcom';
+    var action = 'delete';
+    var args = {subject: subject, resource: resource, action: action};
+    authz(args);
+}
+
+function authz (args) {
+    var url = 'https://www.aauiamapp.dk:9443/services/EntitlementService?wsdl';
+    console.log("subject: " + subject + "res: " + resource + "action: " + action + " requested for authz");
+    process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
+    soap.createClient(url, function(err, client) {
+        client.setSecurity(new soap.BasicAuthSecurity('admin', 'admin'));
+        client.getDecisionByAttributes(args, function(err, result) {
+            parseString(result.getDecisionByAttributesResponse.return, function (err, result) {
+                var decision = result.Response.Result[0].Decision[0];
+                console.log(decision);
+                if(decision === "Permit"){
+                    return next();
+                }
+                else{
+                    res.redirect('/prohibited')
+                }
+            })
+        });
+    });
+}
 
 // Mapping all url to file
 app.use('/', index);
 //app.use('/login', login);
 app.use('/prohibited', prohibited);
 app.use('/res1', ensureAuthN, ensureAuthZres1, res1);
-app.use('/res2', ensureAuthN, ensureAuthZres1, res2);
-app.use('/res3', ensureAuthN, ensureAuthZres1, res3);
+app.use('/res2', ensureAuthN, ensureAuthZres2, res2);
+app.use('/res3', ensureAuthN, ensureAuthZres3, res3);
+app.use('/res4', ensureAuthN, ensureAuthZres4, res4);
 
 
 app.get('/logout', function(req, res){
