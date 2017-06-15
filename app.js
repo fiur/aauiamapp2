@@ -161,6 +161,8 @@ function ensureAuthZ(req, res, next) {
 
 }
 
+console.log ("done")
+
 process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
 
 
