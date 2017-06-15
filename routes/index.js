@@ -10,7 +10,7 @@ router.get('/', function (req, res, next) {
     profileobj = "none"
     userid = "none";
 
-    res.render('pages/res1', { userid: userid, profileobj: profileobj});
+    res.render('pages/index', {Userauth: Userauth, userid: userid, profileobj: profileobj});
 
     // dump the user for debugging
 });
