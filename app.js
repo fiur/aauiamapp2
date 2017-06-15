@@ -14,6 +14,9 @@ var bodyParser = require('body-parser');
 var SamlStrategy = require('passport-saml').Strategy;
 var fs = require('fs');
 var soap = require('soap');
+var parseString = require('xml2js').parseString;
+var async = require('async');
+var Promise = require('bluebird');
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -127,18 +130,35 @@ function ensureAuthZ(req, res, next) {
 
     var url = 'https://www.aauiamapp.dk:9443/services/EntitlementService?wsdl';
     var args = {
-        subject:'professor1',
-        resource:'/researchCMI',
-        action:'GET'
+        subject:'studentitcom1',
+        resource:'/ict/itcom',
+        action:'Read'
     };
+
 
     soap.createClient(url, function(err, client) {
         client.setSecurity(new soap.BasicAuthSecurity('admin', 'admin'));
         client.getDecisionByAttributes(args, function(err, result) {
-            console.log(result);
+            parseString(result.getDecisionByAttributesResponse.return, function (err, result) {
+                var decision = result.Response.Result[0].Decision[0];
+                console.log(decision);
+                if(decision === "Permit"){
+                    console.log("Yesss are are in");
+                    return next();
+                }
+                else{
+                    console.log("Noooooo");
+                    res.redirect('/login')
+                }
+
+            });
+
         });
     });
+
+
     return next();
+
 }
 
 process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
@@ -151,7 +171,7 @@ app.use('/', index);
 //app.use('/login', login);
 app.use('/users', ensureAuthN, ensureAuthZ, users);
 app.use('/register', ensureAuthN, ensureAuthZ, register);
-app.use('/res1', ensureAuthN, ensureAuthZ, res1);
+app.use('/res1', ensureAuthZ, res1);
 app.use('/res2', ensureAuthN, ensureAuthZ, res2);
 app.use('/res3', res3);
 
