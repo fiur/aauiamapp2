@@ -122,7 +122,65 @@ function ensureAuthN(req, res, next) {
     res.redirect('/login')
 }
 
-function ensureAuthZ(req, res, next) {
+function ensureAuthZres1(req, res, next) {
+
+    var url = 'https://www.aauiamapp.dk:9443/services/EntitlementService?wsdl';
+    var args = {
+        subject:'samant',
+        resource:'/ict/icte',
+        action:'update'
+    };
+    process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
+    soap.createClient(url, function(err, client) {
+        client.setSecurity(new soap.BasicAuthSecurity('admin', 'admin'));
+        client.getDecisionByAttributes(args, function(err, result) {
+            parseString(result.getDecisionByAttributesResponse.return, function (err, result) {
+                var decision = result.Response.Result[0].Decision[0];
+                console.log(decision);
+                if(decision === "Permit"){
+                    console.log("Yesss are are in");
+                    return next();
+                }
+                else{
+                    console.log("Noooooo");
+                    res.redirect('/prohibited')
+                }
+            })
+        });
+    });
+
+}
+
+function ensureAuthZres2(req, res, next) {
+
+    var url = 'https://www.aauiamapp.dk:9443/services/EntitlementService?wsdl';
+    var args = {
+        subject:'samant',
+        resource:'/ict/icte',
+        action:'update'
+    };
+    process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
+    soap.createClient(url, function(err, client) {
+        client.setSecurity(new soap.BasicAuthSecurity('admin', 'admin'));
+        client.getDecisionByAttributes(args, function(err, result) {
+            parseString(result.getDecisionByAttributesResponse.return, function (err, result) {
+                var decision = result.Response.Result[0].Decision[0];
+                console.log(decision);
+                if(decision === "Permit"){
+                    console.log("Yesss are are in");
+                    return next();
+                }
+                else{
+                    console.log("Noooooo");
+                    res.redirect('/prohibited')
+                }
+            })
+        });
+    });
+
+}
+
+function ensureAuthZres3(req, res, next) {
 
     var url = 'https://www.aauiamapp.dk:9443/services/EntitlementService?wsdl';
     var args = {
@@ -157,9 +215,9 @@ function ensureAuthZ(req, res, next) {
 app.use('/', index);
 //app.use('/login', login);
 app.use('/prohibited', prohibited);
-app.use('/res1', ensureAuthZ, res1);
-app.use('/res2', ensureAuthN, ensureAuthZ, res2);
-app.use('/res3', ensureAuthN, ensureAuthZ, res3);
+app.use('/res1', ensureAuthN, ensureAuthZres1, res1);
+app.use('/res2', ensureAuthN, ensureAuthZres2, res2);
+app.use('/res3', ensureAuthN, ensureAuthZres3, res3);
 
 
 app.get('/logout', function(req, res){

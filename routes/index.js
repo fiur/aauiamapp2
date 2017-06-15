@@ -10,7 +10,7 @@ router.get('/', function (req, res, next) {
 if(req.user == null)
     {
         req.user ="none";
-
+        var saml = ' {"issuer": "http://aauiamapp.dk/adfs/services/trust", "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "sz@aauiamapp.dk", "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "sz@app.dk", "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "sorin" }';
         Userauth = false;
         profileobj = JSON.stringify(req.user, null, 4);
         userid = "none";
@@ -18,7 +18,7 @@ if(req.user == null)
     else{
         Userauth = true;
         profileobj = JSON.stringify(req.user, null, 4);
-        userid =  req.user.nameID;
+        userid =  saml.user;
     }
 
     res.render('pages/index', {
