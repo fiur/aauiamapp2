@@ -124,12 +124,22 @@ function ensureAuthN(req, res, next) {
 
 function ensureAuthZres1(req, res, next) {
 
+    var saml = JSON.stringify(req.user, null, 4);
+    var json = JSON.parse(saml);
+
+    var userid = json["http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname"];
+    var resource = '/ict/icte';
+    var action = 'update';
+
     var url = 'https://www.aauiamapp.dk:9443/services/EntitlementService?wsdl';
     var args = {
-        subject:'samant',
-        resource:'/ict/icte',
-        action:'update'
+        subject: userid,
+        resource: resource,
+        action: action
     };
+
+    console.log("subject: " + subject + "res: " + resource + "action: " + action + " requested for authz");
+
     process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
     soap.createClient(url, function(err, client) {
         client.setSecurity(new soap.BasicAuthSecurity('admin', 'admin'));
@@ -180,34 +190,6 @@ function ensureAuthZres2(req, res, next) {
 
 }
 
-function ensureAuthZres3(req, res, next) {
-
-    var url = 'https://www.aauiamapp.dk:9443/services/EntitlementService?wsdl';
-    var args = {
-        subject:'samant',
-        resource:'/ict/icte',
-        action:'update'
-    };
-    process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
-    soap.createClient(url, function(err, client) {
-        client.setSecurity(new soap.BasicAuthSecurity('admin', 'admin'));
-        client.getDecisionByAttributes(args, function(err, result) {
-            parseString(result.getDecisionByAttributesResponse.return, function (err, result) {
-                var decision = result.Response.Result[0].Decision[0];
-                console.log(decision);
-                if(decision === "Permit"){
-                    console.log("Yesss are are in");
-                    return next();
-                }
-                else{
-                    console.log("Noooooo");
-                    res.redirect('/prohibited')
-                }
-            })
-        });
-    });
-
-}
 
 
 
@@ -216,8 +198,8 @@ app.use('/', index);
 //app.use('/login', login);
 app.use('/prohibited', prohibited);
 app.use('/res1', ensureAuthN, ensureAuthZres1, res1);
-app.use('/res2', ensureAuthN, ensureAuthZres2, res2);
-app.use('/res3', ensureAuthN, ensureAuthZres3, res3);
+app.use('/res2', ensureAuthN, ensureAuthZres1, res2);
+app.use('/res3', ensureAuthN, ensureAuthZres1, res3);
 
 
 app.get('/logout', function(req, res){
