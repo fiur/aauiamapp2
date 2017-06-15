@@ -19,12 +19,6 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 app.use(express.static(path.join(__dirname, 'public')));
 
-// Express and Passport Session
-//var session = require('express-session');
-//app.use(session({secret: "A secret"}));
-//app.use(passport.initialize());
-//app.use(passport.session());
-
 
 
 // uncomment after placing your favicon in /public
