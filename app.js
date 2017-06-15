@@ -51,8 +51,8 @@ passport.use(new SamlStrategy(
         entryPoint: 'https://aauiamapp.dk/adfs/ls/',
         callbackUrl: 'https://app2.aauiamapp.dk/login/callback',
         //privateCert: fs.readFileSync('../App2_private.pem', 'utf-8'),
-        //cert: fs.readFileSync('../b64_aauiamapp_public.cer', 'utf-8'),
-        // other authn contexts are available e.g. windows single sign-on
+        cert:'MIIC1DCCAbygAwIBAgIQdETDRQ+zh4REKWUskwFVMjANBgkqhkiG9w0BAQsFADAmMSQwIgYDVQQDExtBREZTIFNpZ25pbmcgLSBhYXVpYW1hcHAuZGswHhcNMTcwNTIxMTEyODIyWhcNMTgwNTIxMTEyODIyWjAmMSQwIgYDVQQDExtBREZTIFNpZ25pbmcgLSBhYXVpYW1hcHAuZGswggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCguuuREql8EmklOh3OkqF+SwXLecOJ2do4/bN0NG00yfdZi2J4fWYLNQx44MVdHluQDteIZK1mamVRqotJds5ScgfC8JGlbA0JKVYXA0UMZgMUWUhEBRoCIOQ63CJxY8QmJFL+5dL/y4xJCM9UUVZFqNIJuaj8wMQy141a6i4lN5ACEQtOidLJzGaxW7VnwRU49oScGqI2GuZinhS+CRzrXka+wskHPC+UrOhTBMpf/YXgGzgf7lVK9ylrE212G5WuxzDJlwfhiDCOtDnnIvvArF+VlxpSfpbqFVk9DjSyrUYgnNJT7dBv3lAcfPniU1gelrmEOZi5FlnK+9zCWVOHAgMBAAEwDQYJKoZIhvcNAQELBQADggEBADA4i3pSMJer7D/mDCF2xaPkU/J20M/1n4QeYmnGSQjghTn4xxdYnwCRqbSJ3EQJ++nlWQMwrrMDcMzJizJvXEzRQEuxmF+vNdGPU9uB97YvjUzmYCyJTF3PfjjzTaPJxAd7gyYhkd2xASHAq5p0movXO5L5yK91EJFKFbLG2QCyDS620oYDmEy0Z2pISFoInIpdjI0fycfU55rwQid305U1+gQzXp0rwLvbfamBGQ1Z133VjPfZIiy4T9bdGKxW2RHgBlI4/KGi4kJDKxtiuoiP0+qUZJpJRLC/0sqbG5kzzw/vau8Uj0UWufwjR00R+SDHq6eCePvE5yOAXi1FyQs=',
+    // other authn contexts are available e.g. windows single sign-on
         authnContext: 'http://schemas.microsoft.com/ws/2008/06/identity/authenticationmethod/password',
         // not sure if this is necessary?
         acceptedClockSkewMs: -1,
