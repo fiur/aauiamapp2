@@ -1,9 +1,9 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="bin/www" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" path-to-js-file="app.js" application-parameters="sudo" working-dir="$PROJECT_DIR$">
+  <configuration default="false" name="bin/www" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" path-to-js-file="bin/www" application-parameters="sudo" working-dir="$PROJECT_DIR$">
     <envs>
       <env name="DEBUG" value="iam1:*" />
     </envs>
-    <browser start="true" url="http://localhost/" />
+    <browser start="true" url="http://localhost:8090/" />
     <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
       <option name="envVars">
         <list />
@@ -26,7 +26,7 @@
       </option>
     </EXTENSION>
     <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSStartBrowserRunConfigurationExtension">
-      <browser start="true" url="http://localhost/" />
+      <browser start="true" url="http://localhost:8090/" />
     </EXTENSION>
     <method />
   </configuration>

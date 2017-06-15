@@ -99,8 +99,6 @@ app.post('/login/callback',
 // Define routes
 var index = require('./routes/index');
 //var login = require('./routes/login');
-var users = require('./routes/users');
-var register = require('./routes/register');
 var prohibited = require('./routes/prohibited');
 var res1 = require('./routes/res1');
 var res2 = require('./routes/res2');
@@ -128,9 +126,9 @@ function ensureAuthZ(req, res, next) {
 
     var url = 'https://www.aauiamapp.dk:9443/services/EntitlementService?wsdl';
     var args = {
-        subject:'professor1',
-        resource:'/researchCMI',
-        action:'GET'
+        subject:'Samant',
+        resource:'/ict/icte',
+        action:'NOTupdate'
     };
     process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
     soap.createClient(url, function(err, client) {
@@ -145,7 +143,7 @@ function ensureAuthZ(req, res, next) {
                 }
                 else{
                     console.log("Noooooo");
-                    res.redirect('/login')
+                    res.redirect('/prohibited')
                 }
             })
         });
@@ -158,11 +156,10 @@ function ensureAuthZ(req, res, next) {
 // Mapping all url to file
 app.use('/', index);
 //app.use('/login', login);
-app.use('/users', ensureAuthN, ensureAuthZ, users);
-app.use('/register', ensureAuthN, ensureAuthZ, register);
+app.use('/prohibited', prohibited);
 app.use('/res1', ensureAuthN, ensureAuthZ, res1);
 app.use('/res2', ensureAuthN, ensureAuthZ, res2);
-app.use('/res3', res3);
+app.use('/res3', ensureAuthN, ensureAuthZ, res3);
 
 
 app.get('/logout', function(req, res){
