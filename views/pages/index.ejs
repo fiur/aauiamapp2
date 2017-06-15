@@ -16,7 +16,9 @@
 
 <!-- Start Main panel-->
 <div id="main" role="main">
-    <h1>Index</h1>
+    <h1> Welcome to our test Web Application</h1>
+    <hr>
+
 
     <% if (Userauth) { %>
     <div class="">
@@ -27,6 +29,8 @@
         <h2>userid</h2>
         <p><%= userid %></p>
     </div>
+    <% } else { %>
+    <h1>You are not logged in, please click<a href="/login" > Here </a>or try to access a resource</h1>
     <% } %>
 
 </div>

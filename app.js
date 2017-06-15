@@ -13,6 +13,7 @@ var session = require('cookie-session');
 var bodyParser = require('body-parser');
 var SamlStrategy = require('passport-saml').Strategy;
 var fs = require('fs');
+var soap = require('soap');
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -89,7 +90,7 @@ app.post('/login/callback',
     passport.authenticate('saml', { failureRedirect: '/', failureFlash: true }),
     function(req, res) {
         console.log("The callback function have been hit")
-        res.redirect('/profile');
+        res.redirect('/');
     }
 );
 
@@ -99,7 +100,6 @@ var index = require('./routes/index');
 //var login = require('./routes/login');
 var users = require('./routes/users');
 var register = require('./routes/register');
-var profile = require('./routes/profile');
 var prohibited = require('./routes/prohibited');
 var res1 = require('./routes/res1');
 var res2 = require('./routes/res2');
@@ -113,7 +113,7 @@ var res3 = require('./routes/res3');
 
 
 
-function ensureAuthenticated(req, res, next) {
+function ensureAuthN(req, res, next) {
     if (req.isAuthenticated()) {
         console.log("The user is logged in");
         // req.user is available for use here
@@ -123,15 +123,37 @@ function ensureAuthenticated(req, res, next) {
     res.redirect('/login')
 }
 
+function ensureAuthZ(req, res, next) {
+
+    var url = 'https://www.aauiamapp.dk:9443/services/EntitlementService?wsdl';
+    var args = {
+        subject:'professor1',
+        resource:'/researchCMI',
+        action:'GET'
+    };
+
+    soap.createClient(url, function(err, client) {
+        client.setSecurity(new soap.BasicAuthSecurity('admin', 'admin'));
+        client.getDecisionByAttributes(args, function(err, result) {
+            console.log(result);
+        });
+    });
+    return next();
+}
+
+process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
+
+
+
+
 // Mapping all url to file
 app.use('/', index);
 //app.use('/login', login);
-app.use('/users', ensureAuthenticated, users);
-app.use('/register', ensureAuthenticated, register);
-app.use('/profile', ensureAuthenticated , profile);
-app.use('/res1', ensureAuthenticated, res1);
-app.use('/res2', ensureAuthenticated, res2);
-app.use('/res3', ensureAuthenticated, res3);
+app.use('/users', ensureAuthN, ensureAuthZ, users);
+app.use('/register', ensureAuthN, ensureAuthZ, register);
+app.use('/res1', ensureAuthN, ensureAuthZ, res1);
+app.use('/res2', ensureAuthN, ensureAuthZ, res2);
+app.use('/res3', res3);
 
 
 app.get('/logout', function(req, res){
