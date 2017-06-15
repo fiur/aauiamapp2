@@ -126,9 +126,9 @@ function ensureAuthZ(req, res, next) {
 
     var url = 'https://www.aauiamapp.dk:9443/services/EntitlementService?wsdl';
     var args = {
-        subject:'Samant',
+        subject:'samant',
         resource:'/ict/icte',
-        action:'NOTupdate'
+        action:'update'
     };
     process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
     soap.createClient(url, function(err, client) {
@@ -157,7 +157,7 @@ function ensureAuthZ(req, res, next) {
 app.use('/', index);
 //app.use('/login', login);
 app.use('/prohibited', prohibited);
-app.use('/res1', ensureAuthN, ensureAuthZ, res1);
+app.use('/res1', ensureAuthZ, res1);
 app.use('/res2', ensureAuthN, ensureAuthZ, res2);
 app.use('/res3', ensureAuthN, ensureAuthZ, res3);
 
@@ -168,7 +168,5 @@ app.get('/logout', function(req, res){
     res.redirect('/');
 });
 
-
-app.listen(8081);
 
 module.exports = app;
