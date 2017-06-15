@@ -104,6 +104,10 @@ var res1 = require('./routes/res1');
 var res2 = require('./routes/res2');
 var res3 = require('./routes/res3');
 var res4 = require('./routes/res4');
+var res5 = require('./routes/res5');
+var res6 = require('./routes/res6');
+var res7 = require('./routes/res7');
+var res8 = require('./routes/res8');
 
 // Simple middleware to ensure user is authenticated.
 // Use this middleware on any resource that needs to be protected.
@@ -257,6 +261,138 @@ function ensureAuthZres4(req, res, next) {
     });
 }
 
+function ensureAuthZres5(req, res, next) {
+    var saml = JSON.stringify(req.user, null, 4);
+    var json = JSON.parse(saml);
+    var subject = json["http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname"];
+    var resource = '/ict/icte';
+    var action = 'create';
+    var url = 'https://www.aauiamapp.dk:9443/services/EntitlementService?wsdl';
+    var args = {
+        subject: subject,
+        resource: resource,
+        action: action
+    };
+
+    console.log("subject: " + subject + "res: " + resource + "action: " + action + " requested for authz");
+
+    process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
+    soap.createClient(url, function(err, client) {
+        client.setSecurity(new soap.BasicAuthSecurity('admin', 'admin'));
+        client.getDecisionByAttributes(args, function(err, result) {
+            parseString(result.getDecisionByAttributesResponse.return, function (err, result) {
+                var decision = result.Response.Result[0].Decision[0];
+                console.log(decision);
+                if(decision === "Permit"){
+                    return next();
+                }
+                else{
+                    res.redirect('/prohibited')
+                }
+            })
+        });
+    });
+}
+
+function ensureAuthZres6(req, res, next) {
+    var saml = JSON.stringify(req.user, null, 4);
+    var json = JSON.parse(saml);
+    var subject = json["http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname"];
+    var resource = '/ict/icte';
+    var action = 'read';
+    var url = 'https://www.aauiamapp.dk:9443/services/EntitlementService?wsdl';
+    var args = {
+        subject: subject,
+        resource: resource,
+        action: action
+    };
+
+    console.log("subject: " + subject + "res: " + resource + "action: " + action + " requested for authz");
+
+    process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
+    soap.createClient(url, function(err, client) {
+        client.setSecurity(new soap.BasicAuthSecurity('admin', 'admin'));
+        client.getDecisionByAttributes(args, function(err, result) {
+            parseString(result.getDecisionByAttributesResponse.return, function (err, result) {
+                var decision = result.Response.Result[0].Decision[0];
+                console.log(decision);
+                if(decision === "Permit"){
+                    return next();
+                }
+                else{
+                    res.redirect('/prohibited')
+                }
+            })
+        });
+    });
+}
+
+function ensureAuthZres7(req, res, next) {
+    var saml = JSON.stringify(req.user, null, 4);
+    var json = JSON.parse(saml);
+    var subject = json["http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname"];
+    var resource = '/ict/icte';
+    var action = 'update';
+    var url = 'https://www.aauiamapp.dk:9443/services/EntitlementService?wsdl';
+    var args = {
+        subject: subject,
+        resource: resource,
+        action: action
+    };
+
+    console.log("subject: " + subject + "res: " + resource + "action: " + action + " requested for authz");
+
+    process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
+    soap.createClient(url, function(err, client) {
+        client.setSecurity(new soap.BasicAuthSecurity('admin', 'admin'));
+        client.getDecisionByAttributes(args, function(err, result) {
+            parseString(result.getDecisionByAttributesResponse.return, function (err, result) {
+                var decision = result.Response.Result[0].Decision[0];
+                console.log(decision);
+                if(decision === "Permit"){
+                    return next();
+                }
+                else{
+                    res.redirect('/prohibited')
+                }
+            })
+        });
+    });
+}
+
+function ensureAuthZres8(req, res, next) {
+    var saml = JSON.stringify(req.user, null, 4);
+    var json = JSON.parse(saml);
+    var subject = json["http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname"];
+    var resource = '/ict/icte';
+    var action = 'delete';
+    var url = 'https://www.aauiamapp.dk:9443/services/EntitlementService?wsdl';
+    var args = {
+        subject: subject,
+        resource: resource,
+        action: action
+    };
+
+    console.log("subject: " + subject + "res: " + resource + "action: " + action + " requested for authz");
+
+    process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
+    soap.createClient(url, function(err, client) {
+        client.setSecurity(new soap.BasicAuthSecurity('admin', 'admin'));
+        client.getDecisionByAttributes(args, function(err, result) {
+            parseString(result.getDecisionByAttributesResponse.return, function (err, result) {
+                var decision = result.Response.Result[0].Decision[0];
+                console.log(decision);
+                if(decision === "Permit"){
+                    return next();
+                }
+                else{
+                    res.redirect('/prohibited')
+                }
+            })
+        });
+    });
+}
+
 
 // Mapping all url to file
 app.use('/', index);
@@ -266,6 +402,10 @@ app.use('/res1', ensureAuthN, ensureAuthZres1, res1);
 app.use('/res2', ensureAuthN, ensureAuthZres2, res2);
 app.use('/res3', ensureAuthN, ensureAuthZres3, res3);
 app.use('/res4', ensureAuthN, ensureAuthZres4, res4);
+app.use('/res5', ensureAuthN, ensureAuthZres5, res5);
+app.use('/res6', ensureAuthN, ensureAuthZres6, res6);
+app.use('/res7', ensureAuthN, ensureAuthZres7, res7);
+app.use('/res8', ensureAuthN, ensureAuthZres8, res8);
 
 
 app.get('/logout', function(req, res){
