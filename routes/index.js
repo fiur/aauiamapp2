@@ -18,7 +18,7 @@ if(req.user == null)
     else{
         Userauth = true;
         profileobj = JSON.stringify(req.user, null, 4);
-        userid =  saml.user;
+        userid =  "none";
     }
 
     res.render('pages/index', {
