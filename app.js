@@ -14,6 +14,7 @@ var bodyParser = require('body-parser');
 var SamlStrategy = require('passport-saml').Strategy;
 var fs = require('fs');
 var soap = require('soap');
+var parseString = require('xml2js').parseString;
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -72,7 +73,7 @@ router.use(function(req, res, next) {
     next();
 });
 
-router.use(logger());
+router.use(logger("combined"));
 router.use(express.static(__dirname + '/public'));
 router.use(function(req, res){
     res.send('Hello');
@@ -131,18 +132,26 @@ function ensureAuthZ(req, res, next) {
         resource:'/researchCMI',
         action:'GET'
     };
-
+    process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
     soap.createClient(url, function(err, client) {
         client.setSecurity(new soap.BasicAuthSecurity('admin', 'admin'));
         client.getDecisionByAttributes(args, function(err, result) {
-            console.log(result);
+            parseString(result.getDecisionByAttributesResponse.return, function (err, result) {
+                var decision = result.Response.Result[0].Decision[0];
+                console.log(decision);
+                if(decision === "Permit"){
+                    console.log("Yesss are are in");
+                    return next();
+                }
+                else{
+                    console.log("Noooooo");
+                    res.redirect('/login')
+                }
+            })
         });
     });
-    return next();
+
 }
-
-process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
-
 
 
 
@@ -162,5 +171,7 @@ app.get('/logout', function(req, res){
     res.redirect('/');
 });
 
+
+app.listen(8081);
 
 module.exports = app;
