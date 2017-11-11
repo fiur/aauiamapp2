@@ -4,86 +4,32 @@
     <% include ../partials/head %>
 </head>
 
-<body class="animated fadeInDown">
+<body class="">
 
-<header id="header">
+<!-- HEADER -->
+<% include ../partials/header %>
+<!-- END HEADER -->
 
-  <div id="logo-group">
-    <span id="logo"> <img src="img/aau.png" alt="AAU"> </span>
-  </div>
+<!-- Start Navigation -->
+<% include ../partials/navigation %>
+<!-- END NAVIGATION -->
 
-</header>
-
-
-
+<!-- Start Main panel-->
 <div id="main" role="main">
 
-  <!-- MAIN CONTENT -->
-  <div id="content" class="container">
-
-      <br><br>
-
-    <div class="row">
-
-        <div class="col-md-6 col-md-offset-2">
-        <div class="well no-padding">
-          <p>You are not logged in, please log in before you have access to the ressources</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
+    <h1> No access to the resource </h1>
+    <h2>You do  not have access to execute the operation, because you are logged in as:</h2>
+    <p><%= userid %></p>
 </div>
+<!-- END main panel -->
 
+<!-- Start Footer -->
+<% include ../partials/footer %>
+<!-- END Footer -->
+
+<!-- Start client side scripting -->
 <% include ../partials/script %>
-
-<script type="text/javascript">
-    runAllForms();
-
-    $(function() {
-        // Validation
-        $("#login-form").validate({
-            // Rules for form validation
-            rules : {
-                email : {
-                    required : true,
-                    email : true
-                },
-                password : {
-                    required : true,
-                    minlength : 3,
-                    maxlength : 20
-                }
-            },
-
-            // Messages for form validation
-            messages : {
-                email : {
-                    required : 'Please enter your email address',
-                    email : 'Please enter a VALID email address'
-                },
-                password : {
-                    required : 'Please enter your password'
-                }
-            },
-
-            // Ajax form submition
-            submitHandler : function(form) {
-                $(form).ajaxSubmit({
-                    success : function() {
-                        $("#login-form").addClass('submited');
-                    }
-                });
-            },
-
-            // Do not change code below
-            errorPlacement : function(error, element) {
-                error.insertAfter(element.parent());
-            }
-        });
-    });
-</script>
-
+<!-- END client side scripting -->
 </body>
 
 </html>

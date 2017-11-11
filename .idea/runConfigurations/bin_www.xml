@@ -3,7 +3,7 @@
     <envs>
       <env name="DEBUG" value="iam1:*" />
     </envs>
-    <browser start="true" url="http://localhost/" />
+    <browser start="true" url="http://localhost:8090/" />
     <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
       <option name="envVars">
         <list />
@@ -26,7 +26,7 @@
       </option>
     </EXTENSION>
     <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSStartBrowserRunConfigurationExtension">
-      <browser start="true" url="http://localhost/" />
+      <browser start="true" url="http://localhost:8090/" />
     </EXTENSION>
     <method />
   </configuration>

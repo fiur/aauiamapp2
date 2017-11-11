@@ -11,7 +11,7 @@ router.get('/', function (req, res, next) {
     profileobj = JSON.stringify(req.user, null, 4);
     userid = json["http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname"];
 
-    res.render('pages/res2', { userid: userid});
+    res.render('pages/res6', { userid: userid});
 
 });
 
